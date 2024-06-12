@@ -1,0 +1,735 @@
+<resources>
+    <string name="app_name">TalkAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+
+
+    <string-array name="wordOTD_array">
+        <item>Dog|Hund</item>
+        <item>Smile|lächeln</item>
+        <item>Cat|Katze</item>
+        <item>Happiness|Glück</item>
+        <item>Love|Liebe</item>
+        <item>German|Deutscher</item>
+        <item>Thank you|Danke</item>
+        <item>Goodbye|Tschüss</item>
+        <item>Week|Woche</item>
+        <item>Tomorrow|Morgen</item>
+    </string-array>
+
+
+    <string-array name="alphabetInventory_array">
+        <item>R.drawable.a</item>
+    </string-array>
+
+
+    <string-array name="modelAlphabet_array">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+        <item>ä</item>
+        <item>ö</item>
+        <item>ü</item>
+        <item>ß</item>
+    </string-array>
+
+    <string-array name="answerAlphabet_0">
+        <item>a</item>
+        <item>ah</item>
+        <item>ae</item>
+        <item>aa</item>
+    </string-array>
+    <string-array name="answerAlphabet_1">
+        <item>b</item>
+        <item>be</item>
+        <item>bi</item>
+        <item>wie</item>
+    </string-array>
+    <string-array name="answerAlphabet_2">
+        <item>c</item>
+        <item>see</item>
+        <item>ce</item>
+        <item>sie</item>
+        <item>wie</item>
+    </string-array>
+    <string-array name="answerAlphabet_3">
+        <item>d</item>
+        <item>de</item>
+        <item>the</item>
+        <item>die</item>
+        <item>di</item>
+    </string-array>
+    <string-array name="answerAlphabet_4">
+        <item>e</item>
+        <item>ye</item>
+        <item>ee</item>
+        <item>ey</item>
+        <item>ich</item>
+    </string-array>
+    <string-array name="answerAlphabet_5">
+        <item>f</item>
+        <item>af</item>
+    </string-array>
+    <string-array name="answerAlphabet_6">
+        <item>g</item>
+    </string-array>
+    <string-array name="answerAlphabet_7">
+        <item>h</item>
+    </string-array>
+    <string-array name="answerAlphabet_8">
+        <item>i</item>
+    </string-array>
+    <string-array name="answerAlphabet_9">
+        <item>j</item>
+    </string-array>
+    <string-array name="answerAlphabet_10">
+        <item>k</item>
+    </string-array>
+    <string-array name="answerAlphabet_11">
+        <item>l</item>
+    </string-array>
+    <string-array name="answerAlphabet_12">
+        <item>m</item>
+    </string-array>
+    <string-array name="answerAlphabet_13">
+        <item>n</item>
+    </string-array>
+    <string-array name="answerAlphabet_14">
+        <item>o</item>
+    </string-array>
+    <string-array name="answerAlphabet_15">
+        <item>p</item>
+    </string-array>
+    <string-array name="answerAlphabet_16">
+        <item>q</item>
+    </string-array>
+    <string-array name="answerAlphabet_17">
+        <item>r</item>
+    </string-array>
+    <string-array name="answerAlphabet_18">
+        <item>s</item>
+    </string-array>
+    <string-array name="answerAlphabet_19">
+        <item>t</item>
+    </string-array>
+    <string-array name="answerAlphabet_20">
+        <item>u</item>
+    </string-array>
+    <string-array name="answerAlphabet_21">
+        <item>v</item>
+    </string-array>
+    <string-array name="answerAlphabet_22">
+        <item>w</item>
+    </string-array>
+    <string-array name="answerAlphabet_23">
+        <item>x</item>
+    </string-array>
+    <string-array name="answerAlphabet_24">
+        <item>y</item>
+    </string-array>
+    <string-array name="answerAlphabet_25">
+        <item>z</item>
+    </string-array>
+    <string-array name="answerAlphabet_26">
+        <item>z</item>
+    </string-array>
+    <string-array name="answerAlphabet_27">
+        <item>z</item>
+    </string-array>
+    <string-array name="answerAlphabet_28">
+        <item>z</item>
+    </string-array>
+    <string-array name="answerAlphabet_29">
+        <item>ss</item>
+        <item>ß</item>
+    </string-array>
+
+    <string-array name="modelAlphabetQuiz_array">
+        <item>b</item>
+        <item>u</item>
+        <item>t</item>
+        <item>w</item>
+        <item>p</item>
+    </string-array>
+
+    <string-array name="answerAlphabetQuiz_array">
+        <item>b|be|bee</item>
+        <item>u|you</item>
+        <item>t|tee|tea</item>
+        <item>w</item>
+        <item>p|pea</item>
+    </string-array>
+
+
+    <string-array name="modelNumber_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="answerNumber_0">
+        <item>Zero</item>
+        <item>null</item>
+    </string-array>
+    <string-array name="answerNumber_1">
+        <item>1</item>
+        <item>eins</item>
+        <item>ein</item>
+    </string-array>
+    <string-array name="answerNumber_2">
+        <item>2</item>
+        <item>zwei</item>
+        <item>zwee</item>
+    </string-array>
+    <string-array name="answerNumber_3">
+        <item>3</item>
+        <item>drei</item>
+    </string-array>
+    <string-array name="answerNumber_4">
+        <item>4</item>
+        <item>vier</item>
+    </string-array>
+    <string-array name="answerNumber_5">
+        <item>5</item>
+        <item>funf</item>
+        <item>fünf</item>
+    </string-array>
+    <string-array name="answerNumber_6">
+        <item>6</item>
+        <item>sechs</item>
+    </string-array>
+    <string-array name="answerNumber_7">
+        <item>7</item>
+        <item>sieben</item>
+    </string-array>
+    <string-array name="answerNumber_8">
+        <item>8</item>
+        <item>acht</item>
+    </string-array>
+    <string-array name="answerNumber_9">
+        <item>9</item>
+        <item>neun</item>
+    </string-array>
+    <string-array name="answerNumber_10">
+        <item>10</item>
+        <item>zehn</item>
+    </string-array>
+    <string-array name="answerNumber_11">
+        <item>11</item>
+        <item>elf</item>
+    </string-array>
+    <string-array name="answerNumber_12">
+        <item>12</item>
+        <item>zwölf</item>
+        <item>zwolf</item>
+    </string-array>
+    <string-array name="answerNumber_13">
+        <item>20</item>
+        <item>zwanzig</item>
+    </string-array>
+    <string-array name="answerNumber_14">
+        <item>30</item>
+        <item>dreißig</item>
+        <item>dreissig</item>
+        <item>dreizig</item>
+    </string-array>
+    <string-array name="answerNumber_15">
+        <item>40</item>
+        <item>vierzig</item>
+    </string-array>
+    <string-array name="answerNumber_16">
+        <item>50</item>
+        <item>fünfzig</item>
+        <item>funfzig</item>
+    </string-array>
+    <string-array name="answerNumber_17">
+        <item>60</item>
+        <item>sechzig</item>
+    </string-array>
+    <string-array name="answerNumber_18">
+        <item>70</item>
+        <item>siebzig</item>
+    </string-array>
+    <string-array name="answerNumber_19">
+        <item>80</item>
+        <item>achtzig</item>
+    </string-array>
+    <string-array name="answerNumber_20">
+        <item>90</item>
+        <item>neunzig</item>
+    </string-array>
+    <string-array name="answerNumber_21">
+        <item>100</item>
+        <item>einhundert</item>
+    </string-array>
+
+    <string-array name="modelNumberQuiz_array">
+        <item>5</item>
+        <item>20</item>
+        <item>8</item>
+        <item>100</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="answerNumberQuiz_array">
+        <item>5</item>
+        <item>20</item>
+        <item>8</item>
+        <item>100</item>
+        <item>7</item>
+    </string-array>
+
+
+    <string-array name="modelColor_array">
+        <item>heart</item>
+        <item>yarn</item>
+        <item>banana</item>
+        <item>leaf</item>
+        <item>flamingo</item>
+        <item>lotus</item>
+        <item>orange</item>
+    </string-array>
+
+    <string-array name="color_array">
+        <item>rot</item>
+        <item>blau</item>
+        <item>gelb</item>
+        <item>grün</item>
+        <item>rosa</item>
+        <item>Lila</item>
+        <item>orange</item>
+    </string-array>
+
+    <string-array name="answerColor_0">
+        <item>rot</item>
+    </string-array>
+    <string-array name="answerColor_1">
+        <item>blau</item>
+    </string-array>
+    <string-array name="answerColor_2">
+        <item>gelb</item>
+    </string-array>
+    <string-array name="answerColor_3">
+        <item>grün</item>
+        <item>grun</item>
+    </string-array>
+    <string-array name="answerColor_4">
+        <item>rosa</item>
+    </string-array>
+    <string-array name="answerColor_5">
+        <item>lila</item>
+    </string-array>
+    <string-array name="answerColor_6">
+        <item>orange</item>
+    </string-array>
+
+    <string-array name="modelColorQuiz_array">
+        <item>yellow</item>
+        <item>green</item>
+        <item>pink</item>
+    </string-array>
+
+    <string-array name="answerColorQuiz_array">
+        <item>gelb</item>
+        <item>grün</item>
+        <item>rosa</item>
+    </string-array>
+
+
+    <string-array name="modelShape_array">
+        <item>circle</item>
+        <item>square</item>
+        <item>triangle</item>
+        <item>rectangle</item>
+        <item>cone</item>
+        <item>cylinder</item>
+        <item>cross</item>
+        <item>heart</item>
+        <item>star</item>
+    </string-array>
+
+    <string-array name="shape_array">
+        <item>kreis</item>
+        <item>quadrat</item>
+        <item>dreieck</item>
+        <item>rechteck</item>
+        <item>kegel</item>
+        <item>zylinder</item>
+        <item>kreuz</item>
+        <item>herz</item>
+        <item>stern</item>
+    </string-array>
+
+    <string-array name="answerShape_0">
+        <item>circle</item>
+        <item>kreis</item>
+    </string-array>
+    <string-array name="answerShape_1">
+        <item>square</item>
+        <item>quadrat</item>
+    </string-array>
+    <string-array name="answerShape_2">
+        <item>triangle</item>
+        <item>dreieck</item>
+        <item>driehoek</item>
+    </string-array>
+    <string-array name="answerShape_3">
+        <item>rectangle</item>
+        <item>rechteck</item>
+    </string-array>
+    <string-array name="answerShape_4">
+        <item>cone</item>
+        <item>kegel</item>
+    </string-array>
+    <string-array name="answerShape_5">
+        <item>cylinder</item>
+        <item>zylinder</item>
+    </string-array>
+    <string-array name="answerShape_6">
+        <item>cross</item>
+        <item>kreuz</item>
+    </string-array>
+    <string-array name="answerShape_7">
+        <item>heart</item>
+        <item>herz</item>
+    </string-array>
+    <string-array name="answerShape_8">
+        <item>star</item>
+        <item>stern</item>
+    </string-array>
+
+    <string-array name="modelShapeQuiz_array">
+        <item>circle</item>
+        <item>triangle</item>
+        <item>cone</item>
+        <item>cross</item>
+        <item>star</item>
+    </string-array>
+
+    <string-array name="answerShapeQuiz_array">
+        <item>kreis</item>
+        <item>dreieck</item>
+        <item>kegel</item>
+        <item>kreuz</item>
+        <item>stern</item>
+    </string-array>
+
+
+
+    <string-array name="modelWord_array">
+        <item>airplane</item>
+        <item>axe</item>
+        <item>banana</item>
+        <item>bed</item>
+        <item>bird</item>
+        <item>book</item>
+        <item>bottle</item>
+        <item>car</item>
+        <item>cup</item>
+        <item>cupcake</item>
+        <item>donut</item>
+        <item>earth</item>
+        <item>flamingo</item>
+        <item>frame</item>
+        <item>grass</item>
+        <item>guitar</item>
+        <item>hammer</item>
+        <item>hat</item>
+        <item>ice_cream</item>
+        <item>igloo</item>
+        <item>iron</item>
+        <item>jar</item>
+        <item>kettle</item>
+        <item>key</item>
+        <item>knife</item>
+        <item>ladder</item>
+        <item>lamp</item>
+        <item>leaf</item>
+        <item>lotus</item>
+        <item>mask</item>
+        <item>microwave</item>
+        <item>padlock</item>
+        <item>pill</item>
+        <item>pineapple</item>
+        <item>plate</item>
+        <item>rabbit</item>
+        <item>yak</item>
+    </string-array>
+
+    <string-array name="word_array">
+        <item>flugzeug</item>
+        <item>axt</item>
+        <item>banane</item>
+        <item>bett</item>
+        <item>vogel</item>
+        <item>book</item>
+        <item>bottle</item>
+        <item>car</item>
+        <item>cup</item>
+        <item>cupcake</item>
+        <item>donut</item>
+        <item>earth</item>
+        <item>flamingo</item>
+        <item>frame</item>
+        <item>grass</item>
+        <item>guitar</item>
+        <item>hammer</item>
+        <item>hat</item>
+        <item>ice_cream</item>
+        <item>igloo</item>
+        <item>iron</item>
+        <item>jar</item>
+        <item>kettle</item>
+        <item>key</item>
+        <item>knife</item>
+        <item>ladder</item>
+        <item>lamp</item>
+        <item>leaf</item>
+        <item>lotus</item>
+        <item>mask</item>
+        <item>microwave</item>
+        <item>padlock</item>
+        <item>pill</item>
+        <item>pineapple</item>
+        <item>plate</item>
+        <item>rabbit</item>
+        <item>yak</item>
+    </string-array>
+
+    <string-array name="answerWord_0">
+        <item>flugzeug</item>
+    </string-array>
+    <string-array name="answerWord_1">
+        <item>axt</item>
+    </string-array>
+    <string-array name="answerWord_2">
+        <item>banane</item>
+    </string-array>
+    <string-array name="answerWord_3">
+        <item>bett</item>
+    </string-array>
+    <string-array name="answerWord_4">
+        <item>vogel</item>
+    </string-array>
+    <string-array name="answerWord_36">
+        <item>yak</item>
+    </string-array>
+
+    <string-array name="modelWordQuiz_array">
+        <item>book</item>
+        <item>mask</item>
+        <item>earth</item>
+        <item>igloo</item>
+        <item>yak</item>
+    </string-array>
+
+    <string-array name="answerWordQuiz_array">
+        <item>book</item>
+        <item>maske</item>
+        <item>erde</item>
+        <item>iglu</item>
+        <item>yak</item>
+    </string-array>
+
+
+    <string-array name="modelGreeting_array">
+        <item>girl_3_obj</item>
+        <item>girl_3_obj</item>
+        <item>girl_3_obj</item>
+        <item>moon</item>
+        <item>girl_3_obj</item>
+    </string-array>
+
+    <string-array name="greeting_array">
+        <item>Good Morning|Guten Morgen</item>
+        <item>Good Afternoon|Guten Tag</item>
+        <item>Good Evening|Guten Abend</item>
+        <item>Good Night|Guten Nacht</item>
+        <item>Bye|Tschüss</item>
+    </string-array>
+
+    <string-array name="answerGreeting_0">
+        <item>guten morgen</item>
+    </string-array>
+    <string-array name="answerGreeting_1">
+        <item>guten tag</item>
+    </string-array>
+    <string-array name="answerGreeting_2">
+        <item>guten abend</item>
+    </string-array>
+    <string-array name="answerGreeting_3">
+        <item>guten nacht</item>
+    </string-array>
+    <string-array name="answerGreeting_4">
+        <item>tschüss</item>
+    </string-array>
+
+    <string-array name="modelGreetingQuiz_array">
+        <item>girl_3_obj</item>
+        <item>girl_3_obj</item>
+        <item>girl_3_obj</item>
+    </string-array>
+
+    <string-array name="questionGreetingQuiz_array">
+        <item>Good Night</item>
+        <item>Good Afternoon</item>
+        <item>Good Morning</item>
+    </string-array>
+
+    <string-array name="answerGreetingQuiz_array">
+        <item>guten nacht</item>
+        <item>guten tag</item>
+        <item>guten morgen</item>
+    </string-array>
+
+
+    <string-array name="modelSentence_array">
+        <item>apple</item>
+        <item>bottle</item>
+        <item>cupcake</item>
+        <item>egg</item>
+    </string-array>
+
+    <string-array name="sentence_array">
+        <item>Green apples are sour|grüne Äpfel sind sauer</item>
+        <item>Open the bottle|Öffne die Flasche</item>
+        <item>Children like cupcake|Kinder mögen Cupcake</item>
+        <item>I like egg|Ich mag Eier</item>
+    </string-array>
+
+    <string-array name="answerSentence_0">
+        <item>grüne äpfel sind sauer</item>
+        <item>grune apfel sind sauer</item>
+    </string-array>
+    <string-array name="answerSentence_1">
+        <item>öffne die flasche</item>
+        <item>offne die flasche</item>
+    </string-array>
+    <string-array name="answerSentence_2">
+        <item>kinder mögen cupcake</item>
+        <item>kinder mogen cupcake</item>
+        <item>kinder mugen cupcake</item>
+    </string-array>
+    <string-array name="answerSentence_3">
+        <item>ich mag eier</item>
+    </string-array>
+
+    <string-array name="modelSentenceQuiz_array">
+        <item>bottle</item>
+        <item>apple</item>
+        <item>egg</item>
+    </string-array>
+
+    <string-array name="questionSentenceQuiz_array">
+        <item>Open the bottle</item>
+        <item>Green apples are sour</item>
+        <item>I like egg</item>
+    </string-array>
+
+    <string-array name="answerSentenceQuiz_array">
+        <item>öffne die flasche</item>
+        <item>grüne äpfel sind sauer</item>
+        <item>ich mag eier</item>
+    </string-array>
+
+
+    <string-array name="modelQuiz_array">
+<!--        <item>h</item>-->
+<!--        <item>k</item>-->
+<!--        <item>11</item>-->
+<!--        <item>90</item>-->
+        <item>cone</item>
+        <item>cross</item>
+        <item>leaf</item>
+        <item>orange</item>
+        <item>ice_cream</item>
+        <item>knife</item>
+        <item>bottle</item>
+        <item>girl_3_obj</item>
+        <item>girl_3_obj</item>
+        <item>egg</item>
+        <item>cupcake</item>
+    </string-array>
+
+    <string-array name="quiz_array">
+<!--        <item>What is pronunciation of alphabet H in german language?</item>-->
+<!--        <item>What is pronunciation of alphabet K in german language?</item>-->
+<!--        <item>11?</item>-->
+<!--        <item>90?</item>-->
+        <item>Can you recall what Cone is called?</item>
+        <item>Cross?</item>
+        <item>What is color of leaf?</item>
+        <item>Orange in german?</item>
+        <item>Ice Cream</item>
+        <item>Knife</item>
+        <item>Bottle</item>
+        <item>How do you greet someone you meet in the Evening?</item>
+        <item>What if you meet them in Afternoon?</item>
+        <item>I like egg</item>
+        <item>Children like cupcake</item>
+    </string-array>
+
+    <string-array name="answerQuiz_array">
+<!--        <item>h|ha</item>-->
+<!--        <item>k|ka</item>-->
+<!--        <item>11|elf|11 uhr</item>-->
+<!--        <item>90</item>-->
+        <item>kegel</item>
+        <item>kreuz</item>
+        <item>grüne|grune</item>
+        <item>orange</item>
+        <item>eiscreme|ice cream</item>
+        <item>messer</item>
+        <item>flasche</item>
+        <item>guten abend</item>
+        <item>guten tag</item>
+        <item>ich mag eier</item>
+        <item>kinder mögen cupcake|kinder mogen cupcake|kinder mugen cupcake</item>
+    </string-array>
+
+</resources>

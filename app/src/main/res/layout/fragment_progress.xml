@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/screen_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_stars_black_24dp"
+            android:layout_centerVertical="true"
+            android:tint="#fff"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:layout_toRightOf="@+id/screen_icon"
+            android:layout_centerVertical="true"
+            android:textSize="35sp"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-black"
+            android:includeFontPadding="false"
+            android:layout_marginStart="20dp"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/shapeCard"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/shape_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_layers_black_24dp"
+                        android:tint="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/shape_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shapes"
+                        android:includeFontPadding="false"
+                        android:textSize="25sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/shape_icon"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/shapesCompleted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="#fff"
+                        android:layout_above="@+id/shapeBar"
+                        android:layout_centerHorizontal="true"/>
+
+                    <ProgressBar
+                        android:id="@+id/shapeBar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:progressBackgroundTint="#fff"
+                        android:progressTint="@color/colorProgressGreen"
+                        android:max="100"
+                        android:progress="0"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/colorCard"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/color_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_color_lens_black_24dp"
+                        android:tint="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/color_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Colors"
+                        android:includeFontPadding="false"
+                        android:textSize="25sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/color_icon"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/colorsCompleted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="#fff"
+                        android:layout_above="@+id/colorBar"
+                        android:layout_centerHorizontal="true"/>
+
+                    <ProgressBar
+                        android:id="@+id/colorBar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:progressBackgroundTint="#fff"
+                        android:progressTint="@color/colorProgressGreen"
+                        android:max="100"
+                        android:progress="0"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/wordCard"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/word_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_translate_black_24dp"
+                        android:tint="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/word_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Things"
+                        android:includeFontPadding="false"
+                        android:textSize="25sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/word_icon"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/wordsCompleted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="#fff"
+                        android:layout_above="@+id/wordBar"
+                        android:layout_centerHorizontal="true"/>
+
+                    <ProgressBar
+                        android:id="@+id/wordBar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:progressBackgroundTint="#fff"
+                        android:progressTint="@color/colorProgressGreen"
+                        android:max="100"
+                        android:progress="0"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/greetingCard"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/greeting_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_people_black_24dp"
+                        android:tint="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/greeting_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Greetings"
+                        android:includeFontPadding="false"
+                        android:textSize="25sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/greeting_icon"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/greetingsCompleted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="#fff"
+                        android:layout_above="@+id/greetingBar"
+                        android:layout_centerHorizontal="true"/>
+
+                    <ProgressBar
+                        android:id="@+id/greetingBar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:progressBackgroundTint="#fff"
+                        android:progressTint="@color/colorProgressGreen"
+                        android:max="100"
+                        android:progress="0"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/sentenceCard"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/sentence_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_format_align_left_black_24dp"
+                        android:tint="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/sentence_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sentences"
+                        android:includeFontPadding="false"
+                        android:textSize="25sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/sentence_icon"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/sentencesCompleted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="#fff"
+                        android:layout_above="@+id/sentenceBar"
+                        android:layout_centerHorizontal="true"/>
+
+                    <ProgressBar
+                        android:id="@+id/sentenceBar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:progressBackgroundTint="#fff"
+                        android:progressTint="@color/colorProgressGreen"
+                        android:max="100"
+                        android:progress="0"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/quizCard"
+                android:layout_width="0dp"
+                android:layout_height="125dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="8dp" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/quiz_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_import_contacts_black_24dp"
+                        android:tint="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/quiz_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quiz"
+                        android:includeFontPadding="false"
+                        android:textSize="25sp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="#fff"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/quiz_icon"
+                        android:layout_marginBottom="10dp"/>
+                    <TextView
+                        android:id="@+id/quizCompleted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="#fff"
+                        android:layout_above="@+id/quizBar"
+                        android:layout_centerHorizontal="true"/>
+
+                    <ProgressBar
+                        android:id="@+id/quizBar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:progressBackgroundTint="#fff"
+                        android:progressTint="@color/colorProgressGreen"
+                        android:max="100"
+                        android:progress="0"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
